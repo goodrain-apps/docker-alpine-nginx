@@ -7,7 +7,7 @@ RUN apk add --no-cache nginx="1.8.1-r0" \
     s6="2.2.4.2-r0"
 
 
-COPY etc /
+COPY  etc /etc
 COPY docker-entrypoint.sh /
 
 VOLUME /data
